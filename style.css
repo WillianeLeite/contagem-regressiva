@@ -1,0 +1,104 @@
+body {
+  font-family: Hat Display, sans-serif;
+  font-size: 14px;
+  line-height: 1.6em;
+  color: var(--blue); /* Utilizando a cor azul da paleta */
+  background: var(--lightest-blue);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(245, 151, 148);
+  padding: 26px;
+  margin: 26px;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.content h1,
+.content h3 {
+  text-align: center; /* texto ao centro */
+}
+
+.content h1 {
+  font-size: 2em;
+  margin-bottom: 5px; /* espaçamento abaixo do h1 */
+  color: var(--plum);
+}
+
+.content h3 {
+  font-size: 1em;
+  margin-bottom: 30px; /* Adicionando espaçamento abaixo do h3 */
+  color: rgb(241, 112, 107);
+}
+
+.image img {
+  max-width: 70%;
+  border-radius: 20px;
+  margin-right: 20px; /* Adicione margem direita para ajustar o espaçamento entre a imagem e o texto */
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(49, 48, 48);
+  font-size: 25px;
+  margin-bottom: 5px; /* Adicionando espaçamento abaixo do h1 */
+}
+
+.title h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin-bottom: 5px; /* Adicionando espaçamento abaixo do h1 */
+}
+
+.title h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px; /* Adicionando espaçamento abaixo do h3 */
+}
+
+#countdown {
+  position: absolute;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 32px;
+  color: #993e6b;
+  bottom: 40px;
+  right: 30px;
+}
+
+.countdown-item {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.countdown-number {
+  font-size: 5em;
+  font-weight: bold;
+  color: #ff6b81;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(245, 151, 148);
+}
+
+.countdown-label {
+  display: block;
+  color: #b1035a;
+  font-size: 1.2em;
+}
